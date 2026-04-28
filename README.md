@@ -1,4 +1,4 @@
-# Azure-Synapse-SSIS-Data-Engineering-Project-End-to-End-Sales-Analytics-Pipeline
+# From On-Prem ETL to Cloud Data Platform
 
 ## SSIS ETL Workflow Description
 ## 🔄 SSIS ETL Pipeline – End-to-End Workflow
