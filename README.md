@@ -143,9 +143,19 @@ The final step is loading the fact table (`fact_sales`).
 * Sequential execution to maintain data integrity
 
 # 🔵 Phase 2 – Azure Synapse (Cloud Ingestion)
+Azure Data Lake Storage Gen2 is used as the central storage layer, organized into multiple containers to support a medallion architecture (Raw → Silver → Gold)
 
-* Built a Synapse pipeline using **Copy Activities**
+<img width="1907" height="862" alt="image" src="https://github.com/user-attachments/assets/31e19dfa-bceb-462c-94e7-96fe7b3f7dc3" />
+
+* Built a Synapse pipeline
 * Loaded raw CSV data into a **Silver layer in Data Lake**
+
+<img width="1571" height="428" alt="image" src="https://github.com/user-attachments/assets/3ca05920-f5aa-4f5c-b3b6-d0bbd872a2fa" />
+
+* Query data from database
+
+<img width="1527" height="780" alt="image" src="https://github.com/user-attachments/assets/84c87da5-380a-4b2c-823f-be3fb3834124" />
+  
 * Pipeline responsibilities:
 
   * Data ingestion
