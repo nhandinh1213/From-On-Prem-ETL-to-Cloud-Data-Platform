@@ -155,6 +155,12 @@ Azure Data Lake Storage Gen2 is used as the central storage layer, organized int
 * Query data from database
 
 <img width="1527" height="780" alt="image" src="https://github.com/user-attachments/assets/84c87da5-380a-4b2c-823f-be3fb3834124" />
+
+* Connect data from Synapse to Power BI for visualization
+<img width="954" height="460" alt="image" src="https://github.com/user-attachments/assets/28d01cf6-1a7e-4ea9-9425-92e6ac0811f3" />
+<img width="1104" height="878" alt="image" src="https://github.com/user-attachments/assets/439b6129-6441-4d0f-bc61-ee07613f3e6f" />
+
+
   
 * Pipeline responsibilities:
 
